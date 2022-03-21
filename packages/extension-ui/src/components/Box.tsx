@@ -33,7 +33,7 @@ export default styled(Box)(({ theme }: ThemeProps) => `
   position: relative;
 
   .banner {
-    background: darkorange;
+    background: purple;
     border-radius: 0 ${theme.borderRadius} 0 ${theme.borderRadius};
     color: white;
     font-size: 0.75rem;

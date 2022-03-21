@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Polkadot-js extension, manage accounts for substrate based chains</title>
+    <title>Decentration extension, manage accounts for substrate based chains (and store addresses WIP)</title>
     <meta
       name="description"
       content="This browser extension for Polkadot, Kusama or any other substrate-base blockchain allows to keep all your accounts in one place while being able to interact with any website or application that support it."
@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:title" content="Polkadot-js extension, manage accounts for substrate based chains" />
     <meta property="og:url" content="https://polkadot-js.github.io/extension" />
-    <meta property="og:image" content="./logo.jpg" />
+    <meta property="og:image" content="./logo1.png" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="This browser extension for Polkadot, Kusama or any other substrate-base blockchain allows to keep all your accounts in one place while being able to interact with any website or application that support it."
+      content="This browser extension for Kabocha, Pop-Art, Polkadot, Kusama or any other substrate-base blockchain allows to keep all your accounts in one place while being able to interact with any website or application that support it."
     />
     <link rel="shortcut icon" href="favicon.ico">
     <style>
@@ -66,12 +66,12 @@
       }
 
       a {
-        color: rgb(227, 126, 6);
+        color: rgb(164, 6, 227);
       }
 
       a.button {
         display: inline-block;
-        background-color: rgb(227, 126, 6);
+        background-color: rgb(164, 6, 227);
         height: 48px;
         box-sizing: border-box;
         border: medium none;
@@ -87,7 +87,7 @@
       }
 
       a.button:hover {
-        background: rgb(237, 147, 41) none repeat scroll 0% 0%;
+        background: rgb(164, 6, 227) none repeat scroll 0% 0%;
       }
 
       .insideButton {
@@ -163,13 +163,13 @@
       <div id="header">
         <img
           id="logo"
-          src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjE1IDE1IDE0MCAxNDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE3MCAxNzA7em9vbTogMTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LmJnMHtmaWxsOiNGRjhDMDB9IC5zdDB7ZmlsbDojRkZGRkZGfTwvc3R5bGU+PGc+PGNpcmNsZSBjbGFzcz0iYmcwIiBjeD0iODUiIGN5PSI4NSIgcj0iNzAiPjwvY2lyY2xlPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik04NSwzNC43Yy0yMC44LDAtMzcuOCwxNi45LTM3LjgsMzcuOGMwLDQuMiwwLjcsOC4zLDIsMTIuM2MwLjksMi43LDMuOSw0LjIsNi43LDMuM2MyLjctMC45LDQuMi0zLjksMy4zLTYuNyBjLTEuMS0zLjEtMS42LTYuNC0xLjUtOS43QzU4LjEsNTcuNiw2OS41LDQ2LDgzLjYsNDUuM2MxNS43LTAuOCwyOC43LDExLjcsMjguNywyNy4yYzAsMTQuNS0xMS40LDI2LjQtMjUuNywyNy4yIGMwLDAtNS4zLDAuMy03LjksMC43Yy0xLjMsMC4yLTIuMywwLjQtMywwLjVjLTAuMywwLjEtMC42LTAuMi0wLjUtMC41bDAuOS00LjRMODEsNzMuNGMwLjYtMi44LTEuMi01LjYtNC02LjIgYy0yLjgtMC42LTUuNiwxLjItNi4yLDRjMCwwLTExLjgsNTUtMTEuOSw1NS42Yy0wLjYsMi44LDEuMiw1LjYsNCw2LjJjMi44LDAuNiw1LjYtMS4yLDYuMi00YzAuMS0wLjYsMS43LTcuOSwxLjctNy45IGMxLjItNS42LDUuOC05LjcsMTEuMi0xMC40YzEuMi0wLjIsNS45LTAuNSw1LjktMC41YzE5LjUtMS41LDM0LjktMTcuOCwzNC45LTM3LjdDMTIyLjgsNTEuNiwxMDUuOCwzNC43LDg1LDM0Ljd6IE04Ny43LDEyMS43IGMtMy40LTAuNy02LjgsMS40LTcuNSw0LjljLTAuNywzLjQsMS40LDYuOCw0LjksNy41YzMuNCwwLjcsNi44LTEuNCw3LjUtNC45QzkzLjMsMTI1LjcsOTEuMiwxMjIuNCw4Ny43LDEyMS43eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+Cg=="
+          src="./logo1.png"
         />
-        <h1>Polkadot{.js} extension</h1>
+        <h1>Decentration extension</h1>
       </div>
     </div>
     <div id="content">
-      <img class="fullWidth" src="./extension-overview.png" />
+      <img class="fullWidth" src="./logo1.png" />
       <p>
         This browser extension does one thing: it manages accounts and allows the signing of transactions with those accounts. It does not inject providers for use by dapps at this early point, nor does it perform wallet functions,
         e.g send funds.

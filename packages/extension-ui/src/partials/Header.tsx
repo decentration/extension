@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useCallback, useRef, useState } from 'react';
 import styled from 'styled-components';
 
-import logo from '../assets/pjs.svg';
+import logo from '../assets/logo1.png';
 import InputFilter from '../components/InputFilter';
 import Link from '../components/Link';
 import useOutsideClick from '../hooks/useOutsideClick';
@@ -94,7 +94,7 @@ function Header ({ children, className = '', onFilter, showAdd, showBackArrow, s
               />
             )
           }
-          <span className='logoText'>{text || 'polkadot{.js}'}</span>
+          <span className='logoText'>{text || 'Decentration'}</span>
         </div>
         {showSearch && (
           <div className={`searchBarWrapper ${isSearchOpen ? 'selected' : ''}`}>
